@@ -194,7 +194,8 @@ video {
   top: 0;
   bottom: 0;
   right: calc(100% - var(--progress-position) * 100%);
-  background-color: red;
+  background: linear-gradient(90.2deg,#EB20B2 25.08%,#11BCFF 116.2%);
+  ;
 }
 
 .timeline .thumb-indicator {
@@ -204,7 +205,9 @@ video {
   height: 200%;
   top: -50%;
   left: calc(var(--progress-position) * 100%);
-  background-color: red;
+  background: white;
+  ;
+  z-index: 1;
   border-radius: 50%;
   transition: transform 150ms ease-in-out;
   aspect-ratio: 1 / 1;
